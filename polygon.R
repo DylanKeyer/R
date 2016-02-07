@@ -1,4 +1,7 @@
 #algorithm to solve the polygon puzzle:
+#"A number is written at each corner of a polygon. At every turn, we replace the number
+#at each corner with the average of the two numbers written in neighboring corners."
+
 
 polygon <- function(sides = 4, initial_vals = 1:4, cycles = 1){
   if(sides < 3){
